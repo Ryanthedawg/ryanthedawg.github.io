@@ -1,0 +1,56 @@
+/* styles.css */
+
+/* Body */
+.body-class {
+  background-color: #f4f4f4; /* Subtle background color */
+}
+
+/* Header */
+.header-class {
+  background-color: #333; /* Contrasting background color */
+  color: #fff; /* Font color for better visibility */
+}
+
+/* Navigation */
+.nav-class {
+  background-color: #555; /* Different background color for navigation */
+  color: #fff; /* Font color for navigation links */
+}
+
+.nav-link-class {
+  color: #fff; /* Font color for navigation links */
+}
+
+.nav-link-class:hover {
+  font-weight: bold; /* Make the active page link bold on hover */
+}
+
+/* Titles */
+.title-class,
+.section-title-class {
+  color: #0077cc; /* Distinct colors for headings */
+}
+
+/* Text */
+.text-class {
+  color: #333; /* Font color for text */
+}
+
+/* Images */
+.image-class {
+  border: 2px solid #0077cc; /* Border color that complements the design */
+}
+
+/* Forms and Buttons */
+.form-class {
+  /* Add styles for form fields as needed */
+}
+
+.button-class {
+  /* Add styles for the submit button */
+}
+
+/* Footer */
+.footer-class {
+  background-color: #333; /* Distinct background color for the footer */
+  color: #fff; /* Font color for the footer */
