@@ -1,56 +1,60 @@
-/* styles.css */
-
-/* Body */
-.body-class {
-  background-color: #f4f4f4; /* Subtle background color */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
 }
 
-/* Header */
-.header-class {
-  background-color: #333; /* Contrasting background color */
-  color: #fff; /* Font color for better visibility */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: pink;
 }
 
-/* Navigation */
-.nav-class {
-  background-color: #555; /* Different background color for navigation */
-  color: #fff; /* Font color for navigation links */
+header, nav, main, footer {
+    margin: 20px;
 }
 
-.nav-link-class {
-  color: #fff; /* Font color for navigation links */
+header h1 {
+    color: #333;
 }
 
-.nav-link-class:hover {
-  font-weight: bold; /* Make the active page link bold on hover */
+nav ul {
+    list-style: none;
+    display: flex;
 }
 
-/* Titles */
-.title-class,
-.section-title-class {
-  color: #0077cc; /* Distinct colors for headings */
+nav a {
+    text-decoration: none;
+    color: #007BFF;
+    margin-right: 20px;
 }
 
-/* Text */
-.text-class {
-  color: #333; /* Font color for text */
+main {
+    max-width: 800px;
+    margin: 20px auto;
 }
 
-/* Images */
-.image-class {
-  border: 2px solid #0077cc; /* Border color that complements the design */
+section {
+    margin-bottom: 30px;
 }
 
-/* Forms and Buttons */
-.form-class {
-  /* Add styles for form fields as needed */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
 }
 
-.button-class {
-  /* Add styles for the submit button */
+button:hover {
+    background-color: #0056b3;
 }
 
-/* Footer */
-.footer-class {
-  background-color: #333; /* Distinct background color for the footer */
-  color: #fff; /* Font color for the footer */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+label {
+    margin-bottom: 5px;
+}
